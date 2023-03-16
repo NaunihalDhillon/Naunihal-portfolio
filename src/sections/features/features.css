@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.features .box {
+  border-radius: 20px;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+  padding: 1.5rem;
+}
+
+.features .box h2 {
+  margin: 1.2rem 0;
+}
+
+.features .box p {
+  word-spacing: 2px;
+  transition: 0.5s;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-top: 1.2rem;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.features .box:hover p {
+  color: #fff;
+}
+
+.features .box:hover .icon {
+  opacity: 1;
+}

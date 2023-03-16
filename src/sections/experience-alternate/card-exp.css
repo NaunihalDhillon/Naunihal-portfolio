@@ -1,0 +1,22 @@
+.box hr {
+  margin: 1rem 0 1rem 0;
+  border: 1px solid #1a1a1a;
+  background-color: #e3e9ed;
+}
+.box {
+  position: relative;
+}
+
+.box h2 {
+  color: #d2790c;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.box:hover h2 {
+  color: #fff;
+}
+
+.box h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
