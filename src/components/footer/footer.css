@@ -3,6 +3,19 @@ footer {
   padding: 3rem 0;
 }
 
-footer img {
-  width: 10%;
+footer .img {
+  width: 100%;
+}
+footer .img img {
+  max-width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  footer .img {
+    width: 100%;
+  }
+  footer .img img {
+    max-width: 100%;
+    object-fit: contain;
+  }
 }

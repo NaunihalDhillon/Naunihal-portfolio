@@ -126,3 +126,17 @@ textarea.form-control {
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .contact_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+}

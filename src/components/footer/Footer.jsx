@@ -4,7 +4,7 @@ import Logo from "../../assets/logo.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="container text-center top">
+      <div className="container text-center">
         <div className="img">
           <img src={Logo} alt="Naunihal Dhillon" />
         </div>
