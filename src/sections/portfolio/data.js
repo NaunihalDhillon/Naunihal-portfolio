@@ -3,6 +3,7 @@ import FeedbackUi from "../../assets/feedback_app.png";
 import JanParivartan from "../../assets/janparivartan.png";
 import TextUtils from "../../assets/text_utils.png";
 import Moviezilla from "../../assets/movies_app.png";
+import WebResume from "../../assets/web_resume.png";
 
 const data = [
   {
@@ -13,9 +14,9 @@ const data = [
   },
   {
     id: 2,
-    image: IMG1,
+    image: WebResume,
     title: "A Web Resume",
-    github: "https://www.github.com",
+    github: "https://naunihaldhillon.netlify.app/",
   },
   {
     id: 3,
